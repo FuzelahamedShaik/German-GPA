@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<title>Convert to German GPA</title>
+<body>
+<center>
+<h1>Enter the required fields to display your converted  german GPA</h1>
+<form action="{{url_for('predict')}}" method="post">
+Maximum grade can be scored in your university/college:<br><input type="number" id="max_" name="max_" min="1" max="10" required="required"/><br>
+Minimum grade can be scored in your university/college:<br><input type="number" id="min_" name="min_" min="1" max="10" required="required"/><br>
+Obtained grade:<br><input type="text" id="grade" name="grade" maxlength="4" size="4" required="required"/><br>
+<h4>(Note: Obtained grade must be greater than minimum grade)</h4><br>                                        
+<input type="submit" id="convert" value="convert"/><br>
+<div style="color:#0000ff"><h3>{{converted_gpa}}</h3></div>
+</form>
+</center>
+<style>
+body{
+background-color: #00ffff;
+}
+</style>
+</body>
+</html>
+
