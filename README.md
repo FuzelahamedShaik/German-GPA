@@ -13,4 +13,3 @@ After performing the training and testing of the data using different regression
 
 The web application was developed using flask frame work. These code is also uploaded here in this repository.
 
-https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2015%2F04%2F23%2F22%2F00%2Ftree-736885__340.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&tbnid=_2JirDBiGzi3lM&vet=12ahUKEwiJ8vn20eDqAhVUQH0KHaf1D50QMygDegUIARDUAQ..i&docid=Ba_eiczVaD9-zM&w=546&h=340&q=image&ved=2ahUKEwiJ8vn20eDqAhVUQH0KHaf1D50QMygDegUIARDUAQ
